@@ -1,0 +1,75 @@
+@import url("header.css");
+@import url("footer.css");
+@import url("mainpage.css");
+@import url("contact.css");
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+body {
+	margin: 0;
+	padding: 0;
+    /* background-color: rgb(212, 233, 229); */
+	background-color: #6B7A8F;
+	font: normal 23px Cookie, Arial, Helvetica, sans-serif;
+}
+/* Main page Content CSS */
+.mainpage{
+	text-align: center;
+	color: white;
+	padding: 0px 100px 0px 100px;
+}
+.head-mainpage{
+	font-size: 20px;
+	font-weight: 600;
+}
+.para-mainpage{
+	font-size: 16px;
+	font-weight: 450;
+}
+@media all and (max-width: 600px){
+	.mainpage{
+		padding: 0px 18px 0px 18px;
+	}
+	.head-mainpage{
+		font-size: 18px;
+	}
+	.para-mainpage{
+		font-size: 18px;
+	}
+}
+	
+/* ------------Image Gallery---------- */
+.image-gallery{
+	max-width: 85%;
+	margin:20px auto;	
+  }
+    
+  .image-gallery .title{
+	font-size: 16px;
+	background-color: #FF7235;
+	color:#fff;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+	padding:10px;
+  }
+  
+  .image-gallery .image-image-gallery{
+	columns:3 250px;
+	gap:15px;
+	/* margin-left: 50px; */
+  }
+  
+  .image-gallery .image-image-gallery img{
+	margin-bottom: 10px;
+	border-radius: 5px;
+	width: 100%;
+	
+  }
+  
+
+  
+

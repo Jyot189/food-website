@@ -1,0 +1,64 @@
+/* ------------Common CSS for Footer--------------- */
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+footer{
+    background: #2d2d2e;
+    height: auto;
+    /* position: fixed;  */
+    width: 100%;
+    color: #fff;
+}
+.social_media{
+    display: flex;
+    justify-content:center;
+    /* flex-direction:row;   */
+    padding: 10px 100px 10px 100px;
+    list-style-type: none;
+    /* line-height: 25px; */
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    color: #fff;
+}
+.socials a i{
+    font-size: 25px;
+    transition: color  0.5s ease ;
+}
+.socials a:hover i {
+    color:#FF7235;
+    cursor: pointer;
+}
+.footer_bottom{
+    background: rgb(37, 37, 37);
+    padding: 13px;
+    text-align: center;
+    font-size: 14px;
+    word-spacing: 2px;
+}
+/* ---------media queries-------- */
+@media all and (max-width: 600px){
+    .footer_bottom{
+        font-size: 15px;
+        padding: 13px;
+    }
+    .social_media{
+        display:block;
+        padding: 20px 100px 20px 125px;
+    }
+    .intern_category, .social_media{
+        font-size: 15px;
+    }
+}
+	
