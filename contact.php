@@ -3,6 +3,7 @@
         header("location: menu.php");
     }
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,7 +15,7 @@
     <link rel="stylesheet" href="CSS/style.css">
     <script src="https://kit.fontawesome.com/102bb34c05.js" crossorigin="anonymous"></script>
 </head>
-    
+
 <body>
     <!-- -------Header------ -->
     <?php require "component/navbar.php";?>
@@ -42,12 +43,14 @@
                     <div class="text-two">qresto@gmail.com</div>
                 </div>
             </div>
+            <br>
             <div class="right-side">
                 <div class="topic-text">Send us a message</div>
                 <p>For booking and queries please contact us.</p>
                 <p>We will reach out to you shortly.</p>
-                <form action="DB/db_contact.php" method="post">
-                    <div class="input-box">
+                <br>
+                <form action="DB/db_contact.php" method="post" name="contact">
+                <div class="input-box">
                         <input type="text" placeholder="Enter your name" name="name">
                     </div>
                     <div class="input-box">
@@ -59,19 +62,19 @@
                     <div class="input-box">
                         <input type="text" placeholder="Enter your Address" name="address">
                     </div>
-                    
+                    <br>
                     <input type="hidden" name="item" value="<?php echo $_GET["item"]?>">
                     <input type="hidden" name="price" value="<?php echo $_GET["price"]?>">
 
                     <div class="button">
-                        <input type="submit" value="Send Now">
+                        <input type="submit" value="Send Now" >
                     </div>
                 </form>
             </div>
         </div>
     </div>
 
-
+    <br>
     <!-- -----Footer---- -->
     <?php require "component/footer.php";?>
     <!------End of footer------>

@@ -46,7 +46,7 @@
 	display: inline-block;
 	padding: 0 5px;
 	text-decoration:none;
-	color: #ffffff;
+	color: black;
 	opacity: 0.9;
 	font-weight: 600;
 }
@@ -100,7 +100,7 @@ body.fixed .header-fixed .header-limiter nav {
 		float: none;
 		margin: -8px 0 10px;
 		text-align: center;
-		font-size: 24px;
+		font-size: 16px;
 		line-height: 1;
 	}
 
@@ -110,7 +110,7 @@ body.fixed .header-fixed .header-limiter nav {
 	}
 
 	.header-fixed .header-limiter nav a {
-		font-size: 13px;
+		font-size: 16px;
 	}
 
 	body.fixed .header-fixed {

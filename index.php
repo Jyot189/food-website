@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,7 +16,7 @@
     <!-- ------Main Page----- -->
     <div class="mainpage">
         <h1 class="img-mainpage"><img class="img"
-                src="images/—Pngtree—cartoon restaurant cooking delicious food_6939398.png" alt=""
+                src="images/ΓÇöPngtreeΓÇöcartoon restaurant cooking delicious food_6939398.png" alt=""
                 style="width:200px; height:200px"> <br></h1>
 
         <p class="head-mainpage">The Restaurant</p>
@@ -42,18 +41,19 @@
         </p>
     </div>
     <br>
+
     <!-- ----Image gallary----- -->
     <div class="image-gallery">
         <h1 class="title">Most liked dishes</h1>    
         <div class="image-container">
-            <img src="images/img1 (1).jpg" alt="" height="200px" width="236px">
-            <img src="images/img1 (2).jpg" alt="" height="200px" width="236px">
-            <img src="images/img1 (3).jpg" alt="" height="200px" width="236px">
-            <img src="images/img1 (4).jpg" alt="" height="200px" width="236px">
-            <img src="images/imf1.jpg" alt="" height="200px" width="236px">
-            <img src="images/imgf2.jfif" alt="" height="200px" width="236px">
-            <img src="images/imgf3.jpg" alt="" height="200px" width="236px">
-            <img src="images/imgf4.jpg" alt="" height="200px" width="236px">
+            <img src="images/img1 (1).jpg" alt="" height="250px" width="288px">
+            <img src="images/img1 (2).jpg" alt="" height="250px" width="288px">
+            <img src="images/img1 (3).jpg" alt="" height="250px" width="288px">
+            <img src="images/img1 (4).jpg" alt="" height="250px" width="288px">
+            <img src="images/imf1.jpg" alt=""     height="250px" width="288px">
+            <img src="images/imgf2.jfif" alt=""   height="250px" width="288px">
+            <img src="images/imgf3.jpg" alt=""    height="250px" width="288px">
+            <img src="images/imgf4.jpg" alt=""    height="250px" width="288px">
     
         </div>
     </div>

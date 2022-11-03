@@ -12,13 +12,13 @@ body {
 	margin: 0;
 	padding: 0;
     /* background-color: rgb(212, 233, 229); */
-	background-color: #6B7A8F;
+	background-color: white;
 	font: normal 23px Cookie, Arial, Helvetica, sans-serif;
 }
 /* Main page Content CSS */
 .mainpage{
 	text-align: center;
-	color: white;
+	color: black;
 	padding: 0px 100px 0px 100px;
 }
 .head-mainpage{
@@ -29,6 +29,7 @@ body {
 	font-size: 16px;
 	font-weight: 450;
 }
+
 @media all and (max-width: 600px){
 	.mainpage{
 		padding: 0px 18px 0px 18px;
@@ -48,7 +49,7 @@ body {
   }
     
   .image-gallery .title{
-	font-size: 16px;
+	font-size: 20px;
 	background-color: #FF7235;
 	color:#fff;
 	border-radius: 5px;
